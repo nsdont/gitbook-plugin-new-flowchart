@@ -1,0 +1,23 @@
+{
+  "name": "gitbook-plugin-new-flowchart",
+  "version": "0.0.1",
+  "description": "flowchart.js plugin for gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsdont/gitbook-plugin-new-flowchart.git"
+  },
+  "keywords": [
+    "flowchart",
+    "gitbook"
+  ],
+  "author": "NSDont",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nsdont/gitbook-plugin-new-flowchart/issues"
+  },
+  "homepage": "https://github.com/nsdont/gitbook-plugin-new-flowchart#readme"
+}
