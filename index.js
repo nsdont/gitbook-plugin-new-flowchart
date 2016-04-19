@@ -2,7 +2,6 @@ module.exports = {
     book: {
         assets: "./book",
         js: [
-            "jquery-2.1.1.min.js",
             "flowchart-1.6.2.js",
             "plugin.js"
         ],
