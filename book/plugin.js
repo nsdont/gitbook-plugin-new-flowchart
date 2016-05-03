@@ -5,11 +5,11 @@ require(["gitbook", "jquery"], function(gitbook, $) {
           code = $element.text(),
           chart;
 
-      var wrapper = $("<div id='canvas'></div>");
+      var wrapper = $("<div id='canvas"+index+"'></div>");
       $element.parent().replaceWith(wrapper);
 
       chart = flowchart.parse(code);
-      chart.drawSVG('canvas')
+      chart.drawSVG('canvas'+index)
     });
   });
 });
