@@ -1,15 +1,6 @@
 New Flowchart Plugin
 ==============
 
-Install the New Flowchart plugin via **NPM**, which should be installed globally using the `-g` option:
-
-```
-$ npm install gitbook-plugin-new-flowchart -g
-```
-
-> As you are installing globally, you may need to put `sudo` in front of the command, `sudo npm install gitbook-plugin-new-flowchart -g`
-
-
 To use the plugin in your Gitbook project, add the plugin to the `book.json` file.
 
 ```
