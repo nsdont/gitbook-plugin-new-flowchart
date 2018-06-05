@@ -5,7 +5,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
           code = $element.text(),
           chart;
 
-      var wrapper = $("<div id='canvas"+index+"'></div>");
+      var wrapper = $("<div id='canvas" + index + "' style='overflow: auto;'></div>");
       $element.parent().replaceWith(wrapper);
 
       chart = flowchart.parse(code);
